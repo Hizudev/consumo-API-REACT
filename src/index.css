@@ -4,7 +4,7 @@
 section {
   height: 100vh;
   font-family: "Righteous", cursive;
-  background-image: url("../public/1149487.png");
+  background-image: url("./assets/imgs/pokeFondo.png");
   background-position: center;
   background-size: cover;
 }

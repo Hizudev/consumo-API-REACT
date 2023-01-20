@@ -1,3 +1,5 @@
+import pokeNombre from "../assets/imgs/pokeNombre.png";
+
 const PokeCardInfo = ({ pokeInfo, interruptor }) => {
   let dibujador = interruptor;
   return (
@@ -34,8 +36,14 @@ const PokeCardInfo = ({ pokeInfo, interruptor }) => {
             </div>
           </div>
           <div className="d-flex justify-content-center gap-2 align-items-center card-body">
-            <img src="../../public/pngwing.com.png" className="title-pkball" alt="Open Pokeball" />
-            <h5 className="display-4 text-center title-config m-0">{pokeInfo.name}</h5>
+            <img
+              src={pokeNombre}
+              className="title-pkball"
+              alt="Open Pokeball"
+            />
+            <h5 className="display-4 text-center title-config m-0">
+              {pokeInfo.name}
+            </h5>
           </div>
           <ul className="list-group list-group-flush">
             <li className="d-flex gap-2 align-items-center list-group-item">
