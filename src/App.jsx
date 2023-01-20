@@ -6,6 +6,7 @@ import PokeCardInfo from "./components/PokeCardInfo";
 const App = () => {
   const [pokeCard, setPokeCard] = useState({});
   const [paintSwitch, setPaintSwitch] = useState(false);
+  
   const handleClick = async (url) => {
     const response = await fetch(url);
     const pokeInfo = await response.json();
